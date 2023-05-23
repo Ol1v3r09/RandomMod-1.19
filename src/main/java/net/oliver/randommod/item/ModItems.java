@@ -18,7 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RANDOMMOD_TAB)));
 
-    public static final RegistryObject<Item> EIGTH_BALL = ITEMS.register("eigth_ball",
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.RANDOMMOD_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
